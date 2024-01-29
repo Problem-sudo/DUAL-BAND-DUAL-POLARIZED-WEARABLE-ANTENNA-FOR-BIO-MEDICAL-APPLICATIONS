@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2019.0 - Sep 20 2018 - ACIS 28.0.2 -
+[Author]
+AMIT KUMAR MAURYA
+[Mesh Cells]
+25,200
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:final_antenna.cst?8004af2d77500020fcd7db615382b5bc?68197:numberofparameters=18:port=1>mode=1>zre=0>zim=0:::gr?l_shaped_length?microin?microo?o_r?pr?pt?sh?slmin?t2?t3?t4?i_r?mast?misl?s?sr?t
+[Comment]

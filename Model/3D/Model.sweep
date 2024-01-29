@@ -1,0 +1,193 @@
+{
+    "parameter sweep": {
+        "options": {
+            "restore parameter values after run": "false",
+            "simulation type": "Transient",
+            "skip existing combinations": "true",
+            "start active solver": "true"
+        },
+        "sequences": {
+            "Sequence 1": [
+                {
+                    "from": "12",
+                    "samples": "16",
+                    "to": "20",
+                    "type": "linear",
+                    "varname": "GR"
+                },
+                {
+                    "index": 1
+                }
+            ],
+            "Sequence 10": [
+                {
+                    "from": "0.01",
+                    "samples": "10",
+                    "to": "0.1",
+                    "type": "linear",
+                    "varname": "sr"
+                },
+                {
+                    "index": 10
+                }
+            ],
+            "Sequence 11": [
+                {
+                    "from": "0.1",
+                    "samples": "10",
+                    "to": "0.5",
+                    "type": "linear",
+                    "varname": "t"
+                },
+                {
+                    "index": 11
+                }
+            ],
+            "Sequence 12": [
+                {
+                    "from": "0.1",
+                    "samples": "10",
+                    "to": "0.5",
+                    "type": "linear",
+                    "varname": "t"
+                },
+                {
+                    "index": 12
+                }
+            ],
+            "Sequence 13": [
+                {
+                    "from": "0.1",
+                    "samples": "10",
+                    "to": "0.5",
+                    "type": "linear",
+                    "varname": "T2"
+                },
+                {
+                    "index": 13
+                }
+            ],
+            "Sequence 14": [
+                {
+                    "from": "1",
+                    "samples": "10",
+                    "to": "3",
+                    "type": "linear",
+                    "varname": "T3"
+                },
+                {
+                    "index": 14
+                }
+            ],
+            "Sequence 15": [
+                {
+                    "from": "1",
+                    "samples": "10",
+                    "to": "4",
+                    "type": "linear",
+                    "varname": "T4"
+                },
+                {
+                    "index": 15
+                }
+            ],
+            "Sequence 2": [
+                {
+                    "from": "0.1",
+                    "samples": "10",
+                    "to": "0.7",
+                    "type": "linear",
+                    "varname": "i_r"
+                },
+                {
+                    "index": 2
+                }
+            ],
+            "Sequence 3": [
+                {
+                    "from": "1",
+                    "samples": "10",
+                    "to": "7",
+                    "type": "linear",
+                    "varname": "L_shaped_length"
+                },
+                {
+                    "index": 3
+                }
+            ],
+            "Sequence 4": [
+                {
+                    "from": "1",
+                    "samples": "10",
+                    "to": "3",
+                    "type": "linear",
+                    "varname": "LOMSKD"
+                },
+                {
+                    "index": 4
+                }
+            ],
+            "Sequence 5": [
+                {
+                    "from": "1",
+                    "samples": "10",
+                    "to": "5",
+                    "type": "linear",
+                    "varname": "misl"
+                },
+                {
+                    "index": 5
+                }
+            ],
+            "Sequence 6": [
+                {
+                    "from": "1",
+                    "samples": "10",
+                    "to": "1.6",
+                    "type": "linear",
+                    "varname": "O_r"
+                },
+                {
+                    "index": 6
+                }
+            ],
+            "Sequence 7": [
+                {
+                    "from": "8",
+                    "samples": "10",
+                    "to": "15.73",
+                    "type": "linear",
+                    "varname": "PR"
+                },
+                {
+                    "index": 7
+                }
+            ],
+            "Sequence 8": [
+                {
+                    "from": "1",
+                    "samples": "10",
+                    "to": "2.36",
+                    "type": "linear",
+                    "varname": "s"
+                },
+                {
+                    "index": 8
+                }
+            ],
+            "Sequence 9": [
+                {
+                    "from": "1",
+                    "samples": "10",
+                    "to": "5",
+                    "type": "linear",
+                    "varname": "SLMIN"
+                },
+                {
+                    "index": 9
+                }
+            ]
+        },
+        "version": 1
+    }
+}

@@ -1,0 +1,584 @@
+20100312
+[start]hidden_objects
+[end]hidden_objects
+[start]history_fast_undo
+[start]undo_item
+[start]block_index
+3
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:ground"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+6
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:substrate"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+7
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:patch"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+8
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:ground_cut"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+10
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:inner_pin"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+12
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:teflon"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+13
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:outer_cover"
+Solid.Delete "component1:outer_cover"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+14
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:sorting_pin_1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+15
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:sorting_pin_2"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+18
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+19
+[end]block_index
+[start]command
+'@ define port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+27
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:SLOT2"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+29
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:slot3"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+31
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:slot4"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+37
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:MICROSTRIP"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+38
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:MICROSTRIPL1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+39
+[end]block_index
+[start]command
+'@ transform: rotate component1:MICROSTRIPL1
+[end]command
+[start]content
+With Transform 
+     .Reset 
+     .Name "component1:MICROSTRIPL1" 
+     .Origin "Free" 
+     .Center "0", "0", "0" 
+     .Angle "-1*0", "-1*0", "-1*45" 
+     .MultipleObjects "False" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Transform "Shape", "Rotate" 
+End With 
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+49
+[end]block_index
+[start]command
+'@ transform: rotate component1:MICROSTRIPL1_1
+[end]command
+[start]content
+With Transform 
+     .Reset 
+     .Name "component1:MICROSTRIPL1_1" 
+     .Origin "Free" 
+     .Center "0", "0", "0" 
+     .Angle "-1*0", "-1*0", "-1*90" 
+     .MultipleObjects "False" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Transform "Shape", "Rotate" 
+End With 
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+55
+[end]block_index
+[start]command
+'@ transform: rotate component1:MICROSTRIPL1_3
+[end]command
+[start]content
+With Transform 
+     .Reset 
+     .Name "component1:MICROSTRIPL1_3" 
+     .Origin "Free" 
+     .Center "0", "0", "0" 
+     .Angle "-1*0", "-1*0", "-1*270" 
+     .MultipleObjects "False" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Transform "Shape", "Rotate" 
+End With 
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+57
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:MSLKD"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+62
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:MSLKD_3"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+63
+[end]block_index
+[start]command
+'@ transform: rotate component1:MICROSTRIPL1
+[end]command
+[start]content
+With Transform 
+     .Reset 
+     .Name "component1:MICROSTRIPL1" 
+     .Origin "Free" 
+     .Center "0", "0", "0" 
+     .Angle "-1*0", "-1*0", "-1*-35" 
+     .MultipleObjects "False" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Transform "Shape", "Rotate" 
+End With 
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+64
+[end]block_index
+[start]command
+'@ transform: rotate component1:MICROSTRIPL1_1
+[end]command
+[start]content
+With Transform 
+     .Reset 
+     .Name "component1:MICROSTRIPL1_1" 
+     .Origin "Free" 
+     .Center "0", "0", "0" 
+     .Angle "-1*0", "-1*0", "-1*-35" 
+     .MultipleObjects "False" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Transform "Shape", "Rotate" 
+End With 
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+65
+[end]block_index
+[start]command
+'@ transform: rotate component1:MICROSTRIPL1_2_1
+[end]command
+[start]content
+With Transform 
+     .Reset 
+     .Name "component1:MICROSTRIPL1_2_1" 
+     .Origin "Free" 
+     .Center "0", "0", "0" 
+     .Angle "-1*0", "-1*0", "-1*-35" 
+     .MultipleObjects "False" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Transform "Shape", "Rotate" 
+End With 
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+66
+[end]block_index
+[start]command
+'@ transform: rotate component1:MICROSTRIPL1_3
+[end]command
+[start]content
+With Transform 
+     .Reset 
+     .Name "component1:MICROSTRIPL1_3" 
+     .Origin "Free" 
+     .Center "0", "0", "0" 
+     .Angle "-1*0", "-1*0", "-1*-35" 
+     .MultipleObjects "False" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Transform "Shape", "Rotate" 
+End With 
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+108
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:L_shaped"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+110
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:L_shaped_2"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+112
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:L_shaped_3"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+115
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:L_shaped_3"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+117
+[end]block_index
+[start]command
+[end]command
+[start]content
+Solid.Delete "component1:L_shaped_4"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
+[end]delete_solids
+[end]undo_item
+[end]history_fast_undo
+[start]PortAndLumpedLabelState
+[start]ShowLabels
+1
+[end]ShowLabels
+[start]ShowLabelsShort
+1
+[end]ShowLabelsShort
+[start]ZoomDependPortLabels
+1
+[end]ZoomDependPortLabels
+[end]PortAndLumpedLabelState
+[start]adaption_criteria_store
+[end]adaption_criteria_store
